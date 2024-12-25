@@ -1,0 +1,12 @@
+{
+    "road_dry": {
+        "or": "dry_ao_rough_2k.webp",
+        "diffuse": "dry_BaseColor_2k.webp",
+        "normal": "dry_Normal_2k.webp"
+    },
+    "road_wet": {
+        "or": "wet_ao_rough_2k.webp",
+        "diffuse": "wet_BaseColor_2k.webp",
+        "normal": "wet_Normal_2k.webp"
+    }
+}
