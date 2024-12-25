@@ -34,10 +34,10 @@ function generateTextureList(folderPath) {
       ROUGHNESS: "rough",
       METALLIC: "metal",
       AO: "ao", // Ambient Occlusion
-      ORM: "orm", // Occlusion, Roughness, Metallic
-      OR: "or", // Occlusion, Roughness
-      RM: "rm", // Roughness, Metallic
-      OM: "om", // Occlusion, Metallic
+      ORM: "occ_rough_metal", // Occlusion, Roughness, Metallic
+      OR: "occ_rough", // Occlusion, Roughness
+      RM: "rough_metal", // Roughness, Metallic
+      OM: "occ_metal", // Occlusion, Metallic
     }
 
     // Sort files into texture types based on keywords
