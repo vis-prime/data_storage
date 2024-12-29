@@ -2,11 +2,37 @@
     "road_dry": {
         "occ_rough": "dry_ao_rough_2k.webp",
         "diffuse": "dry_BaseColor_2k.webp",
-        "normal": "dry_Normal_2k.webp"
+        "dry_BaseColor_2k": "dry_BaseColor_2k.webp",
+        "normal": "dry_Normal_2k.webp",
+        "dry_Normal_2k": "dry_Normal_2k.webp"
     },
     "road_wet": {
         "occ_rough": "wet_ao_rough_2k.webp",
         "diffuse": "wet_BaseColor_2k.webp",
-        "normal": "wet_Normal_2k.webp"
+        "wet_BaseColor_2k": "wet_BaseColor_2k.webp",
+        "normal": "wet_Normal_2k.webp",
+        "wet_Normal_2k": "wet_Normal_2k.webp"
+    },
+    "suzanne_motion": {
+        "0001": "0001.png",
+        "0002": "0002.png",
+        "0003": "0003.png",
+        "0004": "0004.png",
+        "0005": "0005.png",
+        "0006": "0006.png",
+        "0007": "0007.png",
+        "0008": "0008.png",
+        "0009": "0009.png",
+        "0010": "0010.png",
+        "Image0001": "Image0001.png",
+        "Image0002": "Image0002.png",
+        "Image0003": "Image0003.png",
+        "Image0004": "Image0004.png",
+        "Image0005": "Image0005.png",
+        "Image0006": "Image0006.png",
+        "Image0007": "Image0007.png",
+        "Image0008": "Image0008.png",
+        "Image0009": "Image0009.png",
+        "Image0010": "Image0010.png"
     }
 }

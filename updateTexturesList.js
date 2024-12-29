@@ -85,6 +85,13 @@ function generateTextureList(folderPath) {
         aoKeyWords.some((keyword) => lowerCaseFile.includes(keyword))
       ) {
         textures[KEYS.AO] = file
+      } else {
+        const filename = file
+
+        const fileName = path.parse(filename).name //=> "hello"
+        const fileExt = path.parse(filename).ext //=> ".html"
+
+        textures[fileName] = file
       }
     })
 
