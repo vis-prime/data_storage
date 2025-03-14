@@ -132,15 +132,15 @@
     "road_dry": {
         "occ_rough": "dry_ao_rough_2k.webp",
         "diffuse": "dry_BaseColor_2k.webp",
-        "dry_BaseColor_2k": "dry_BaseColor_2k.webp",
-        "normal": "dry_Normal_2k.webp",
-        "dry_Normal_2k": "dry_Normal_2k.webp"
+        "normal": "dry_Normal_2k.webp"
     },
     "road_wet": {
         "occ_rough": "wet_ao_rough_2k.webp",
         "diffuse": "wet_BaseColor_2k.webp",
-        "wet_BaseColor_2k": "wet_BaseColor_2k.webp",
-        "normal": "wet_Normal_2k.webp",
-        "wet_Normal_2k": "wet_Normal_2k.webp"
+        "normal": "wet_Normal_2k.webp"
+    },
+    "wood_table": {
+        "diffuse": "wood_table_001_diff_2k.webp",
+        "normal": "wood_table_001_nor_gl_2k.webp"
     }
 }

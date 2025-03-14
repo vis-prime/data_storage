@@ -22,8 +22,8 @@ function generateTextureList(folderPath) {
 
     const textures = {}
 
-    const diffuseKeyWords = ["basecolor", "diffuse"]
-    const normalKeyWords = ["normal"]
+    const diffuseKeyWords = ["basecolor", "diffuse", "diff"]
+    const normalKeyWords = ["normal", "nor"]
     const roughnessKeyWords = ["rough"]
     const metallicKeyWords = ["metal"]
     const aoKeyWords = ["ao", "occ"]
@@ -49,10 +49,8 @@ function generateTextureList(folderPath) {
         normalKeyWords.some((keyword) => lowerCaseFile.includes(keyword))
       ) {
         textures[KEYS.NORMAL] = file
-      }
-
-      // orm
-      if (
+      } else if (
+        // orm
         aoKeyWords.some((keyword) => lowerCaseFile.includes(keyword)) &&
         roughnessKeyWords.some((keyword) => lowerCaseFile.includes(keyword)) &&
         metallicKeyWords.some((keyword) => lowerCaseFile.includes(keyword))
@@ -86,11 +84,9 @@ function generateTextureList(folderPath) {
       ) {
         textures[KEYS.AO] = file
       } else {
+        // save as is if not matching any keywords
         const filename = file
-
-        const fileName = path.parse(filename).name //=> "hello"
-        const fileExt = path.parse(filename).ext //=> ".html"
-
+        const fileName = path.parse(filename).name
         textures[fileName] = file
       }
     })
