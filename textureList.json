@@ -141,6 +141,7 @@
     },
     "wood_table": {
         "diffuse": "wood_table_001_diff_2k.webp",
-        "normal": "wood_table_001_nor_gl_2k.webp"
+        "normal": "wood_table_001_nor_gl_2k.webp",
+        "rough": "wood_table_001_rough_2k.webp"
     }
 }
