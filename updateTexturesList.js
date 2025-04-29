@@ -22,7 +22,7 @@ function generateTextureList(folderPath) {
 
     const textures = {}
 
-    const diffuseKeyWords = ["basecolor", "diffuse", "diff"]
+    const diffuseKeyWords = ["basecolor", "diffuse", "diff", "albedo"]
     const normalKeyWords = ["normal", "nor"]
     const roughnessKeyWords = ["rough"]
     const metallicKeyWords = ["metal"]

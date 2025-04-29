@@ -4,6 +4,11 @@
         "diffuse": "Asphalt01_2K_BaseColor_2k.webp",
         "normal": "Asphalt01_2K_Normal_2k.webp"
     },
+    "Asphalt_02": {
+        "diffuse": "PX_Asphalt_02_albedo_2k.webp",
+        "occ_rough": "PX_Asphalt_02_ao_rough_2k.webp",
+        "normal": "PX_Asphalt_02_normal_2k.webp"
+    },
     "jungle_tribal_pillar": {
         "map_0001": "map_0001.webp",
         "map_0002": "map_0002.webp",
