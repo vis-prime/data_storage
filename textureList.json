@@ -1,4 +1,9 @@
 {
+    "Asphalt01": {
+        "occ_rough": "Asphalt01_2K_AO_ROUGH_2k.webp",
+        "diffuse": "Asphalt01_2K_BaseColor_2k.webp",
+        "normal": "Asphalt01_2K_Normal_2k.webp"
+    },
     "jungle_tribal_pillar": {
         "map_0001": "map_0001.webp",
         "map_0002": "map_0002.webp",
