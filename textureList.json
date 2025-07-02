@@ -139,6 +139,9 @@
         "vec_0063": "vec_0063.exr",
         "vec_0064": "vec_0064.exr"
     },
+    "random": {
+        "tyre_trail_2k": "tyre_trail_2k.webp"
+    },
     "road_dry": {
         "occ_rough": "dry_ao_rough_2k.webp",
         "diffuse": "dry_BaseColor_2k.webp",
