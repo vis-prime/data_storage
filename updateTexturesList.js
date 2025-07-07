@@ -2,8 +2,8 @@ const fs = require("fs")
 const path = require("path")
 
 // Define the root folder and output file
-const rootDir = path.join(__dirname, "/textures")
-const outputFile = path.join(__dirname, "textureList.json")
+const rootDir = path.join(__dirname, "public/textures")
+const outputFile = path.join(__dirname, "public/textureList.json")
 
 // Function to scan a directory and generate the texture list
 function generateTextureList(folderPath) {
